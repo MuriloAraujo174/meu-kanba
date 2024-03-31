@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Meu kanban</title>
+</head>
+<body>
+    <header id="cabeca">
+        <img id="logo" src="" alt="">
+        <nav id="nav-links">
+            <ul id="style-links">
+                <li class="espaco bord-color" id="board">Boards</li>
+                <li class="espaco bord-color" id="equipe">Equipes</li>
+                <li class="espaco bord-color" id="relatorios">Relatórios</li>
+                <li class="espaco bord-color" id="ajuste">Ajuste</li>
+            </ul>
+        </nav>
+    </header>
+    <main id="container">
+        <section>
+            <div id="section-header">
+                <h1 id="titulo-principal">Meu Kanban</h1>
+                <img id="avatar" onclick="menuClick()" src="" alt="">
+                <div id="menu-avatar-conta">
+                    <ul id="itens" class="avatar-menu-conta">
+                        <li class="menu-itens">Conta</li>
+                        <li class="menu-itens">Feitos</li>
+                        <li class="menu-itens">Fazendo</li>
+                    </ul>
+                </div>
+            </div>
+            <div id="container-busca">
+                <input class="icon" id="click" type="button" value="Filtrar">
+                <input id="busca" type="text" placeholder="Busque por cards, assuntos ou responsáveis...">
+            </div>
+
+            <div id="tarefas">
+                <div id="afazer">
+                    <h2 class="style-h2">A fazer</h2>
+                    <div class="cards">
+                        <div class="cards-margin">
+                            <p>#boraCodar um Kanban 🧑‍💻</p>
+                            <p class="sty-color">Novo desafio do boraCoda da rocketseat onde é proposto construir</p>
+                            <ul class="links-refe">
+                                <li class="lis-links-ref">
+                                    <a href="">Rocketseat</a>
+                                </li>
+                                <li class="lis-links-ref">
+                                    <a href="">desafio</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="cards-margin">
+                            <p>Manter a ofensiva 🔥</p>
+                            <p class="sty-color">
+                                Manter minha atividade na plataforma da Rocketseat para não perder a ofensiva
+                            </p>
+
+                            <ul class="links-refe">
+                                <li class="lis-links-ref">
+                                    <a href="">Rocketseat</a>
+                                </li>
+                                <li class="lis-links-ref">
+                                    <a href="">desafio</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="cards-margin">
+                            <p>Almoçar 🥗</p>
+                            <p class="sty-color">
+                                Me alimentar, aproveitando um momento de descanso para recarregar minhas energias durante o almoço
+                            </p>
+
+                            <ul class="links-refe">
+                                <li class="lis-links-ref">
+                                    <a href="">Rocketseat</a>
+                                </li>
+                                <li class="lis-links-ref">
+                                    <a href="">desafio</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="cards-margin">
+                            <p>Curtir post do #boraCodar 💜</p>
+                            <p class="sty-color">
+                                Deixar o like para demonstrar que gostei do novo desafio proposto nas
+                            </p>
+
+                            <ul class="links-refe">
+                                <li class="lis-links-ref">
+                                    <a href="">Rocketseat</a>
+                                </li>
+                                <li class="lis-links-ref">
+                                    <a href="">desafio</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+                <div id="fazendo">
+                    <h2 class="style-h2">fazendo</h2>
+                    <div class="cards">
+                        <div class="cards-margin">
+                            <p>Conferir o novo desafio 🚀 </p>
+                            <p class="sty-color">
+                                Conferir o novo projeto do #boraCodar para fazê-lo da melhor maneira possível
+                            </p>
+
+                            <ul class="links-refe">
+                                <li class="lis-links-ref">
+                                    <a href="">Rocketseat</a>
+                                </li>
+                                <li class="lis-links-ref">
+                                    <a href="">desafio</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div>
+                            <div class="cards-margin">
+                                <p>Ser incrível 😎</p>
+                                <p class="sty-color">
+                                    Sempre me lembrar de manter minha autenticidade e espalhar amor
+                                </p>
+    
+                                <ul class="links-refe">
+                                    <li class="lis-links-ref">
+                                        <a href="">Rocketseat</a>
+                                    </li>
+                                    <li class="lis-links-ref">
+                                        <a href="">desafio</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="feito">
+                    <h2 class="style-h2">feito</h2>
+                    <div class="cards">
+                        <div class="cards-margin">
+                            <p>#boraCodar uma página de login 🧑‍💻</p>
+                            <p class="sty-color">
+                                Novo desafio do #boraCodar da Rocketseat, onde é proposto construir um quadro de Kanban.
+                            </p>
+
+                            <ul class="links-refe">
+                                <li class="lis-links-ref">
+                                    <a href="">Rocketseat</a>
+                                </li>
+                                <li class="lis-links-ref">
+                                    <a href="">desafio</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="cards-margin">
+                            <p>#boraCodar uma página de clima 🧑‍💻</p>
+                            <p class="sty-color">
+                                Novo desafio do #boraCodar da Rocketseat, onde é proposto construir um quadro de Kanban.
+                            </p>
+
+                        <ul class="links-refe">
+                            <li class="lis-links-ref">
+                                <a href="">Rocketseat</a>
+                            </li>
+                            <li class="lis-links-ref">
+                                <a href="">desafio</a>
+                            </li>
+                        </ul>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="cards-margin">
+                            <p>#boraCodar um conversor 🧑‍💻</p>
+                            <p class="sty-color">
+                                Novo desafio do #boraCodar da Rocketseat, onde é proposto construir um quadro de Kanban.
+                            </p>
+
+                            <ul class="links-refe">
+                                <li class="lis-links-ref">
+                                    <a href="">Rocketseat</a>
+                                </li>
+                                <li class="lis-links-ref">
+                                    <a href="">desafio</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="cards-margin">
+                            <p>#boraCodar um dashboard 🧑‍💻</p>
+                            <p class="sty-color">
+                                Novo desafio do #boraCodar da Rocketseat, onde é proposto construir um quadro de Kanban.
+                            </p>
+
+                            <ul class="links-refe">
+                                <li class="lis-links-ref">
+                                    <a href="">Rocketseat</a>
+                                </li>
+                                <li class="lis-links-ref">
+                                    <a href="">desafio</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="./script/script.js"></script>
+</body>
+</html>

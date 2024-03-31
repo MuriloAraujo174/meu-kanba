@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #7C3AED;
+    color: white;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+#style-links {
+    list-style: none;
+}
+
+#logo {
+    padding: 20px;
+}
+
+#nav-links {
+    margin-left: 20px;
+}
+
+ul li {
+    width: 100px;
+}
+
+.espaco {
+    padding: 5px;
+}
+
+.espaco:hover {
+    width: 80px;
+    border-bottom: 1px solid white;
+}
+
+#container {
+    width: 100vw;
+    height: 200vh;
+    position: absolute;
+    top: 4px;
+    right: -200px;
+}
+
+#section-header {
+    position: relative;
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+}
+
+#titulo-principal {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    display: inline-block;
+    width: 80%;
+}
+
+#avatar {
+    position: absolute;
+    right: 0px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+#menu-avatar-conta {
+    position: absolute;
+    top: 70px;
+    right: 0px;
+    width: 100px;
+    text-align: center;
+    height: 100px;
+}
+
+.avatar-menu-conta {
+    display: none;
+    list-style: none;
+    background-color: #756966;
+}
+
+.menu-itens {
+    padding: 5px;
+    border-bottom: 1px solid white;
+}
+
+#container-busca {
+    width: 100%;
+    position: absolute;
+    top: 15%;
+}
+
+#click {
+    width: 100px;
+    height: 40px;
+    border-radius: 3px;
+    border: none;
+    margin-left: 35px;
+    margin-right: 10px;
+    background-color: #7C3AED;
+    color: white;
+}
+
+#click:hover {
+    background-color: #6830c9c8;
+}
+
+#busca {
+    width: 70%;
+    height: 40px;
+    padding-left: 30px;
+    box-shadow: 2px 3px 3px 3px rgba(0, 0, 0, 0.388);
+    border: none;
+    border-radius: 3px;
+}
+
+#click:active {
+    background-color: darkgray;
+    color: black;
+    transition: ease-in-out;
+}
+
+#tarefas {
+    position: absolute;
+    top: 30%;
+}
+
+#afazer {
+    position: absolute;
+    left: 10vw;
+}
+
+#fazendo {
+    position: absolute;
+    left: 40vw;
+}
+
+#feito {
+    position: absolute;
+    left: 70vw;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 3;
+    margin-top: 20px;
+    width: 100px;
+}
+
+.cards-margin {
+    margin-top: 20px;
+}
+
+.style-h2 {
+    display: inline-block;
+    width: 100px;
+}
+
+.sty-color {
+    margin-top: 8px;
+    color: #756966;
+}
+
+.lis-links-ref {
+    width: 100px;
+    margin-right: 3px;
+    list-style: none;
+    padding-right: 3px;
+}
+
+.links-refe {
+    color: #7C3AED;
+    background-color: #E2D6FF;
+    border-radius: 3px;
+    margin-top: 8px;
+    padding: 3px;
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    margin-right: 10px;
+}
+
