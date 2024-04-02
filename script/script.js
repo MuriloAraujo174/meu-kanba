@@ -5,20 +5,22 @@ let agora = hora.getHours();
 let avatar = document.getElementById("avatar");
 let tituloPricipal = document.getElementById("titulo-principal");
 
+agora = 19
+
 if(agora >= 0 && agora < 6) {
     document.body.style.backgroundColor = "#2d6c89";
-    avatar.setAttribute("src", "./../img/img1.jpg");
+    avatar.setAttribute("src", "../img/img1.jpg");
 } else if (agora >= 6 && agora < 12) {
     document.body.style.backgroundColor = "#f9d487";
     document.body.style.color = "black";
-    avatar.setAttribute("src", "./../img/img2.jpg");
+    avatar.setAttribute("src", "../img/img2.jpg");
 } else if (agora >= 12 && agora < 18) {
     document.body.style.backgroundColor = "#fcbea4";
     document.body.style.color = "black";
-    avatar.setAttribute("src", "./../img/img3.jpg");
+    avatar.setAttribute("src", "../img/img3.jpg");
 } else if (agora >= 18) {
     document.body.style.backgroundColor = "#193d4b";
-    avatar.setAttribute("src", "./../img/img4.jpg");
+    avatar.setAttribute("src", "../img/img4.jpg");
     tituloPricipal.style.color = "black";
 }
 
