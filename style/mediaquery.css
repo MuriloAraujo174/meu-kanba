@@ -1,0 +1,26 @@
+@media screen and (min-width: 300px) and (max-width: 500px){
+    
+    #container {
+        width: 230vw;
+        height: 400vh;
+        left: 200px;
+    }
+
+    #container-busca {
+        top: 300px;
+    }
+    
+    #tarefas {
+        position: absolute;
+        top: 500px;
+    }
+
+    #fazendo {
+        left: 70vw;
+    }
+
+    #feito {
+        left: 140vw;
+    }
+
+}
