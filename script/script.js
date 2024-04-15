@@ -26,13 +26,13 @@ if(agora >= 0 && agora < 6) {
 }
 
 if(agora >= 0 && agora < 6) {
-    avatar.setAttribute("src", "../img/img1.jpg");
+    avatar.setAttribute("src", "./img/img1.jpg");
 } else if (agora >= 6 && agora < 12) {
-    avatar.setAttribute("src", "../img/img2.jpg");
+    avatar.setAttribute("src", "./img/img2.jpg");
 } else if (agora >= 12 && agora < 18) {
-    avatar.setAttribute("src", "../img/img3.jpg");
+    avatar.setAttribute("src", "./img/img3.jpg");
 } else if (agora >= 18) {
-    avatar.setAttribute("src", "../img/img4.jpg");
+    avatar.setAttribute("src", "./img/img4.jpg");
 }
 
 function menuClick() {
