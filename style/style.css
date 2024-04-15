@@ -12,6 +12,10 @@ body {
     position: relative;
 }
 
+main {
+    background-color: white;
+}
+
 #style-links {
     list-style: none;
 }
