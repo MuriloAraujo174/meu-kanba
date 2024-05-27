@@ -11,7 +11,7 @@ if(agora >= 0 && agora < 6) {
     document.body.style.backgroundColor = "#f9d487";
 } else if (agora >= 12 && agora < 18) {
     document.body.style.backgroundColor = "#fcbea4";
-} else if(agora >= 18) {
+} else if(agora >= 18 && agora <= 23) {
     document.body.style.backgroundColor = "#193d4b";
 }
 
@@ -21,7 +21,7 @@ if(agora >= 0 && agora < 6) {
     document.body.style.color = "black";
 } else if (agora >= 12 && agora < 18) {
     document.body.style.color = "black";
-} else if(agora >= 18) {
+} else if(agora >= 18 && agora <= 23) {
     document.body.style.color = "white";
 }
 
@@ -31,7 +31,7 @@ if(agora >= 0 && agora < 6) {
     avatar.setAttribute("src", "../img/img2.jpg");
 } else if (agora >= 12 && agora < 18) {
     avatar.setAttribute("src", "../img/img3.jpg");
-} else if (agora >= 18) {
+} else if (agora >= 18 && agora <= 23) {
     avatar.setAttribute("src", "../img/img4.jpg");
 }
 
