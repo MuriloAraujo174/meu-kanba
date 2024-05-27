@@ -1,7 +1,7 @@
 let imgLogo = document.getElementById("logo");
 imgLogo.setAttribute("src", "./assets/icon-logo-nav.svg");
 let hora = new Date();
-let agora = hora.getHours();
+let agora = hora.setHours()
 let avatar = document.getElementById("avatar");
 let tituloPricipal = document.getElementById("titulo-principal");
 
